@@ -84,6 +84,8 @@
 typedef NS_ENUM(int, PermissionGroup) {
     PermissionGroupCamera,
     PermissionGroupLocation,
+    PermissionGroupLocationAlways,
+    PermissionGroupLocationWhenInUse,
 };
 
 //typedef NS_ENUM(int, PermissionGroup) {
